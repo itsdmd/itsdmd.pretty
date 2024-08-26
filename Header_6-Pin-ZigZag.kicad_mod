@@ -1,0 +1,178 @@
+(footprint "Header_6-Pin-ZigZag"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row")
+	(tags "Through hole socket strip THT 1x06 2.54mm single row")
+	(property "Reference" "J2"
+		(at 0 -2.33 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "67016728-078d-4a99-a8eb-5acb3e3a3b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ICSP"
+		(at 0 15.03 0)
+		(layer "F.Fab")
+		(uuid "aaa237f0-c512-4d6e-8ef5-4c0d7da1a1d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee5b18e3-c456-467f-a4d3-d888a02223d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a85f7dd-36ab-4d0c-9708-929521b776f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d307413-3940-4968-b3c8-dfe691fd89f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -1.8)
+		(end -1.8 14.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11a2ce7a-93a3-422c-bc21-469636392a29")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end -1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "960fdd52-60cd-4a39-9157-5d1c51f8fe9a")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 14.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e76194b-4954-4b8a-ba93-8fe2328fb131")
+	)
+	(fp_line
+		(start 1.8 14.5)
+		(end -1.8 14.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "300c217a-40bd-4951-97f0-bb2344244d9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.33 0)
+		(layer "F.Fab")
+		(uuid "541cd19b-9d87-4b56-b786-cafca1a06cce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.2286 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9644d4d-b04f-4303-b894-d20d0dddcee1")
+	)
+	(pad "2" thru_hole oval
+		(at 0.2286 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9e828f4-1a44-4a1b-928d-49cfb7fe2732")
+	)
+	(pad "3" thru_hole oval
+		(at -0.2286 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a287918-a887-43d1-ab04-1fbf2f8d4e58")
+	)
+	(pad "4" thru_hole oval
+		(at 0.2286 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "598d1cd8-33ec-4829-aecc-d281f3d83a0e")
+	)
+	(pad "5" thru_hole oval
+		(at -0.2286 10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c1cec53-9952-4a4f-9887-a303fef5e629")
+	)
+	(pad "6" thru_hole oval
+		(at 0.2286 12.7)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85ed073c-bc8f-4447-b80d-4510921e97d3")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x06_Pitch2.54mm.wrl"
+		(offset
+			(xyz 0 -6.349999905 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

@@ -1,0 +1,74 @@
+(footprint "SinglePad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J6"
+		(at 0 -1.778 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "b12e407f-2114-4f7d-ab83-1a0fcf437afa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "D2"
+		(at 0 1.778 0)
+		(layer "F.SilkS")
+		(uuid "936ed4b3-cee6-45f2-8ff5-74152657c2d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74883bc8-ee7d-4993-9949-eb475a5146e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdf2deee-b64d-4d9c-bb33-8f8f27a4fd2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "895fdcab-e64b-45b2-83b1-8332cad2c58f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0 270)
+		(size 1.7526 1.7526)
+		(drill 1.0922)
+		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1570cb39-1ff1-40a2-bc02-7fafbb453046")
+	)
+)

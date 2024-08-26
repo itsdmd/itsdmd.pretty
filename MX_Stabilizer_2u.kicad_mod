@@ -1,0 +1,108 @@
+(footprint "MX_Stabilizer_2u"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MX-style stabilizer mount")
+	(tags "MX,cherry,gateron,kailh,pg1511,stabilizer,stab")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6257ad8c-73ad-4d06-91d8-9b0d87a18aab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MX_Stabilizer_2u"
+		(at 0 10.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "becbe172-f4c4-43c9-b36e-131913038f5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3140a993-cb2e-4715-86c3-9a26fc1ce599")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79aeb5ed-5fc0-467d-b9f6-589bb6647ef8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "744ff719-42a7-41f8-a0c8-df1e0112b9f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "fd795bd3-5b12-4bed-bd9e-1b4362766faa")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.9 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4b112ea9-1af1-4b84-8488-6c974466024f")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.9 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "888070af-0ff4-43ac-b239-7651ebea13f3")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.9 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8f1270b8-c7bb-44d1-9337-332c15c2f7a3")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.9 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fff7e768-503b-441b-957e-c1ad85886fea")
+	)
+)

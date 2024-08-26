@@ -1,0 +1,329 @@
+(footprint "KS_Choc-1u-reversible-No-Clickhole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW_C1"
+		(at 0 -7.14375 180)
+		(layer "Dwgs.User")
+		(uuid "2c1346c5-0c8b-4221-84f8-7864cb548ed4")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MX"
+		(at 0 -5.08 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ac1de053-f882-4b86-9429-85acd6cede18")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a38717a-1e56-4b10-9adf-3d89df152ad5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d4afd98-eb1c-48c5-8b04-c8d146c9db3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1081c1d-c6dc-4bdc-bc8a-ece4a470b4ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9 -8.5)
+		(end 9 -8.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3c6c5b88-85aa-41bd-9631-65f3f9a38c65")
+	)
+	(fp_line
+		(start -9 8.5)
+		(end -9 -8.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "81cbe0a1-b019-4cca-bf8e-6af2f0cc576b")
+	)
+	(fp_line
+		(start 9 -8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1b771768-e05f-422c-bf8f-edf53e2905c8")
+	)
+	(fp_line
+		(start 9 8.5)
+		(end -9 8.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2a9c372a-04d4-4702-86da-728fca5a50e8")
+	)
+	(fp_line
+		(start -6.9 -6.9)
+		(end 6.9 -6.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "93edbbc1-2018-490b-b4b5-62b4785ff1e9")
+	)
+	(fp_line
+		(start -6.9 6.9)
+		(end -6.9 -6.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8962db8a-ff3b-43d4-b1c1-aead04b0c639")
+	)
+	(fp_line
+		(start 6.9 -6.9)
+		(end 6.9 6.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "de450817-70b5-46db-96e7-12830cc0a497")
+	)
+	(fp_line
+		(start 6.9 6.9)
+		(end -6.9 6.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "991c2d4d-cc78-449f-9b85-af622d928c81")
+	)
+	(fp_line
+		(start -7.5 -7.5)
+		(end 7.5 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "71b98f41-9219-4fad-a7f1-5d4b2a429067")
+	)
+	(fp_line
+		(start -7.5 7.5)
+		(end -7.5 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e2738181-ea48-46a1-80f2-8a7d36a7e27a")
+	)
+	(fp_line
+		(start 7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "2dd8a6fe-e14e-4500-ad96-733e6be4ff52")
+	)
+	(fp_line
+		(start 7.5 7.5)
+		(end -7.5 7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "1153cb62-5b8f-48ac-9f76-25f4c193e32a")
+	)
+	(fp_text user "+"
+		(at 1.27 -3 180)
+		(layer "B.SilkS")
+		(uuid "71ea6a8c-0175-42d7-b84c-bdd97d37fdc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "-"
+		(at -1.26 -3 180)
+		(layer "B.SilkS")
+		(uuid "9f6e7a36-2b2f-4990-bec7-984511f4d12f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "-"
+		(at -1.26 -3 180)
+		(layer "F.SilkS")
+		(uuid "a0cf77fd-c8e0-4467-b641-1b44436db088")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.27 -3 180)
+		(layer "F.SilkS")
+		(uuid "b82f403e-0cd0-4bea-a75d-7e95eadbed86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 0 180)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "13ce5d62-1c7b-4912-9f89-0379ddba1d9b")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.22 -4.2 180)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu")
+		(uuid "27059c1e-c31a-4762-b58b-541cddab4ab5")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d32a0a10-3eb8-4844-8380-105da5662a85")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.22 -4.2 180)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu")
+		(uuid "96d78d86-ee0f-4442-8630-34e6c23eb753")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 0 180)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ce002ab9-349d-4f13-bba6-61c0ad1625a7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.9 180)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f89491c3-b1e6-4fe5-add4-1671ff8c680c")
+	)
+	(pad "2" thru_hole circle
+		(at -5 3.8 41.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "67b4d7fd-9704-43d0-abfe-ed6322f2dafb")
+	)
+	(pad "2" thru_hole circle
+		(at 5 3.8 41.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "414763fb-1579-4ea5-a499-9b2373cf8a31")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -4.8 180)
+		(size 1.905 1.905)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00ebda5c-87a1-4c45-b444-e873955db779")
+	)
+	(pad "4" thru_hole rect
+		(at -1.27 -4.8 180)
+		(size 1.905 1.905)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49bd8413-0868-4d6a-8202-449e8d2f23c9")
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/mx-switch.wrl"
+		(offset
+			(xyz 7.467599888 7.467599888 5.943599911)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz 270 0 180)
+		)
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/SA-R3-1u.wrl"
+		(offset
+			(xyz 0 0 11.93799982)
+		)
+		(scale
+			(xyz 0.394 0.394 0.394)
+		)
+		(rotate
+			(xyz 270 0 0)
+		)
+	)
+)

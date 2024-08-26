@@ -1,0 +1,84 @@
+(footprint "Breakaway_Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.048 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "b87ae518-1074-4207-933f-e151e8c7d856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Breakaway_Hole"
+		(at 0 -4.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d5a9ea6-924f-4df0-84c0-eaaba4fb79a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aa03ab4-1e76-4d14-8eb1-df44deb2943b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55c9d8b-efba-4319-b6c9-542eb2367310")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3f1abe1-f4e6-4cf7-95d5-2da5ff55789f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.595312 0)
+		(end 0.595312 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2b2da62b-bd57-44f1-a78f-ae4ba49bdcad")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.254)
+		(size 0.3937 0.3937)
+		(drill 0.3937)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8e16a1a4-ae57-4ec0-94c6-d36c96f3bb45")
+	)
+)

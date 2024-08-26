@@ -1,0 +1,125 @@
+(footprint "Jumper_3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "fa624ccf-5be6-4634-a8b0-7343b046f6bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3PIN"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "b248e99b-02af-4a39-9ea0-a94b0e0a5048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67cd8641-cef9-4a76-a97f-fd6c0a5e61b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b2818da-5471-4d77-9f81-a188d38e03c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15fc2b8c-ecac-420b-922d-5163952c69b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at -2.01 -1.99)
+		(size 1.524 1.524)
+		(drill 0.25)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ca58b8ab-a74d-40d3-b398-0f3eeb01da83")
+	)
+	(pad "1" smd rect
+		(at -2 -2)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "547c8363-481f-4882-b7fd-bc11ed3f14a5")
+	)
+	(pad "1" smd rect
+		(at -2 -2)
+		(size 1.524 1.524)
+		(layers "B.Cu" "F.Paste" "F.Mask")
+		(uuid "798af197-1015-45e6-a584-b8f6d8e47dea")
+	)
+	(pad "2" thru_hole circle
+		(at -0.01 -1.99)
+		(size 1.524 1.524)
+		(drill 0.25)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "a589c459-a279-4f19-87bb-a5c02c9ce040")
+	)
+	(pad "2" smd rect
+		(at 0 -2)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57cd3ee2-daa0-40ff-acdb-d84115237597")
+	)
+	(pad "2" smd rect
+		(at 0 -2)
+		(size 1.524 1.524)
+		(layers "B.Cu" "F.Paste" "F.Mask")
+		(uuid "f9134a2a-3ee5-4c09-8770-5c3a1d1c9a50")
+	)
+	(pad "3" thru_hole circle
+		(at 2 -2.01)
+		(size 1.524 1.524)
+		(drill 0.25)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "7a12d9dc-14dc-488e-a22d-919dc36ae15d")
+	)
+	(pad "3" smd rect
+		(at 2 -2)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "40b5d62f-18f3-401f-9f6f-07ae88f18761")
+	)
+	(pad "3" smd rect
+		(at 2 -2)
+		(size 1.524 1.524)
+		(layers "B.Cu" "F.Paste" "F.Mask")
+		(uuid "90ff51aa-0173-40a8-b16f-fa8ba90f9359")
+	)
+)

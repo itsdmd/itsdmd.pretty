@@ -1,0 +1,220 @@
+(footprint "SK12D07VG4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "ad973cc1-4922-4469-9fcc-7873afa09fc2")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK12D07VG4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b9f935c6-ca1d-4a0d-8e49-404ccc3fb5da")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "134a0090-940d-4009-8201-7eb2f9adbcec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29ffce87-dcb0-4a09-83de-41ca5e566c5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75ef9082-181f-490e-a095-7a4988a5855f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.4 -2.2)
+		(end 4.4 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76f4a0bf-a241-4629-8c8d-e1f8d356f958")
+	)
+	(fp_line
+		(start -4.4 -1.75)
+		(end -4.4 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17faee37-8bab-498a-9efe-96c8d0038c4b")
+	)
+	(fp_line
+		(start -4.4 2.2)
+		(end -4.4 1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c305f58a-f607-43ed-b104-f06e60216409")
+	)
+	(fp_line
+		(start -4 2.2)
+		(end -4.4 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac4e9448-9e0c-4085-9cf4-c99ca8cdac3d")
+	)
+	(fp_line
+		(start 4 2.2)
+		(end -4 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3ac3764-070d-4a42-b82b-8bd1e345d0ab")
+	)
+	(fp_line
+		(start 4.4 -2.2)
+		(end 4.4 -1.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5094776-c6d8-49cb-9b0e-5b447ba8d572")
+	)
+	(fp_line
+		(start 4.4 2.2)
+		(end 4 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3cc150b-7aea-40d8-b5c4-e7c7328ad6fa")
+	)
+	(fp_line
+		(start 4.4 2.2)
+		(end 4.4 1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "961b7ca2-055a-4dd4-b135-e691c0039ac7")
+	)
+	(fp_line
+		(start -4 2.2)
+		(end -4 4.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5600f3d-c5e0-463a-9457-7e5c4f46495f")
+	)
+	(fp_line
+		(start -4 4.2)
+		(end 4 4.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9143a9f1-ab80-4260-8c99-9532900b5bff")
+	)
+	(fp_line
+		(start 4 4.2)
+		(end 4 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca18eb35-f43c-447f-baf7-da1ce10b482d")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cef6b48a-8ea2-42a9-9c34-b552ab1044b0")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1e03d9f0-c6c5-497f-8e58-aa2d17d1aefd")
+	)
+	(pad "COM" thru_hole circle
+		(at 0 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "39f782c4-b2cc-4604-b8e6-181df64c49b9")
+	)
+	(pad "M1" thru_hole circle
+		(at -4.15 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "edba1163-ca6d-4b27-8850-fe8f9c1dee06")
+	)
+	(pad "M2" thru_hole circle
+		(at 4.15 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2d8d20b5-bd42-4cd4-8aa7-4a73983b2f83")
+	)
+)

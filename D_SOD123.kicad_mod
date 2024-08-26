@@ -1,0 +1,137 @@
+(footprint "D_SOD123"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(placed yes)
+	(layer "F.Cu")
+	(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
+	(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
+	(property "Reference" "D1"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9efe1f43-cd3f-42be-8356-8914ccede7f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c45ba795-d426-4d1b-9ea3-8d8b34488be8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.05 -0.003393 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69f960f9-9e8c-4ac0-b0c0-49dfaa8f7ec8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 -0.003393 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67822e2c-d1e5-483c-be1b-0bb16e7ed500")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 -0.003393 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b66b57e-aa11-4f3a-9395-9eb269fb046e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.45 -0.703393)
+		(end -0.45 0.696607)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bf3de07-6f6d-4faa-88e8-6dedcd5a55b6")
+	)
+	(fp_line
+		(start -0.45 -0.003393)
+		(end 0.45 -0.703393)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df14c190-a93b-43ec-9ef0-4b9f787af0a3")
+	)
+	(fp_line
+		(start 0.45 -0.703393)
+		(end 0.45 0.696607)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb493c96-7dfd-4738-8601-3a7cc12544ab")
+	)
+	(fp_line
+		(start 0.45 0.696607)
+		(end -0.45 -0.003393)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05ee0d60-8988-4ec0-a7bc-5b73a23fc25f")
+	)
+	(pad "1" thru_hole rect
+		(at -1.7 0)
+		(size 1.8 1.5)
+		(drill 0.4)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "a67c46e7-176a-4f4f-b1cb-89960414f9e8")
+	)
+	(pad "2" thru_hole rect
+		(at 1.7 0)
+		(size 1.8 1.5)
+		(drill 0.4)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "0e4c4d4a-88ab-49bb-ab3d-9c5c3340114c")
+	)
+	(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(offset
+			(xyz 0 0 -1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

@@ -1,0 +1,121 @@
+(footprint "DMask_MX-Alps"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 10.05 0)
+		(layer "Eco2.User")
+		(hide yes)
+		(uuid "786a77ce-f491-4909-bd01-2190145cc743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DMask_MX-Alps"
+		(at 0 -15.24 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282097a9-779e-4484-aefb-e7b7ddcb72f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2432709d-8def-4da1-be11-9cfd039ecfbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6042851b-70ff-44b7-b981-954ab767c55a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0399b9d8-ce2f-477f-899b-ecf132d4283a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.5 -9.5)
+		(end 9.5 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "83e4b03d-c729-4b74-bcda-6666ff46ed60")
+	)
+	(fp_line
+		(start -9.5 9.5)
+		(end -9.5 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "34060c07-3a9f-4ecf-92e9-5bb6f4139c00")
+	)
+	(fp_line
+		(start 9.5 -9.5)
+		(end 9.5 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cdc03c67-b83e-4bee-86ff-9ce624f6b0ae")
+	)
+	(fp_line
+		(start 9.5 9.5)
+		(end -9.5 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "85389ba4-2c29-4356-8b1f-7beb04ae2478")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 17.4 15.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "03595bb8-44ba-4214-b8be-91c54e284c70")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 17.4 15.8)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "aa4214a8-a2b8-4a7a-be15-5717dd9f3bb5")
+	)
+)

@@ -1,0 +1,132 @@
+(footprint "Capacitor_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT, 1608, 0603")
+	(tags "SMT, 1608, 0603")
+	(property "Reference" "C_0603"
+		(at -2.05 0 90)
+		(layer "F.SilkS")
+		(uuid "63ed71ac-cb9d-47d9-bd8c-66f975ab6ade")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R***"
+		(at 0 -1.25 0)
+		(layer "F.SilkS")
+		(uuid "6a62b6bf-9343-41a3-b910-cc1bb59a6407")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcd47c8e-968e-4e55-9604-bfb8744f43d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21fe4365-2fb9-4669-b8e7-ede83a53274a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38712344-64af-4e6c-a0c6-a1bb638c1a5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.55)
+		(end 1.35 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f775dae-3c37-4c95-b1ff-b1d2059f6009")
+	)
+	(fp_line
+		(start -1.35 0.55)
+		(end -1.35 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2fcbc55-16b2-4ce9-a18f-4f4d7206d92b")
+	)
+	(fp_line
+		(start 1.35 -0.55)
+		(end 1.35 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a5e4481-0005-4932-b157-3334e78bafa8")
+	)
+	(fp_line
+		(start 1.35 0.55)
+		(end -1.35 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2fbb0a1-f804-424b-b289-4302ab978e82")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "e0507ded-6420-41d7-83d9-cfe0bde6b00b")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.1)
+		(uuid "f9827cc9-0ae4-49aa-a9b0-7fb20a228ce6")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

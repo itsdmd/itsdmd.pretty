@@ -1,0 +1,109 @@
+(footprint "Crystal_SMD_Epson_TSX-3225"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "8e177142-4a85-4ef2-aa67-a0de59924032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_Epson_TSX-3225"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "bf8afe2a-9d09-419c-bd53-5c9762804007")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fac3b829-ae92-494f-a9ea-841cc7ccf814")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98068a4f-1a2a-4be3-8366-80bec8d65d8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcdd9fe7-d0fd-4a58-8abc-a6b736f770f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.25 -1.25)
+		(end 0.25 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ec15567-5bea-44a8-9a5a-b0fa424ddc3a")
+	)
+	(fp_line
+		(start -0.25 1.25)
+		(end 0.25 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cde2228-478f-4657-abf3-1580312eaa08")
+	)
+	(pad "1" smd rect
+		(at -1.1 -0.8)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a54b81b-5bcb-4344-b364-82f02f3cbaa8")
+	)
+	(pad "2" smd rect
+		(at 1.1 -0.8)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b2c09bc-e8b1-4ba3-8b7e-6f52caec78bf")
+	)
+	(pad "3" smd rect
+		(at 1.1 0.8)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3131f71-c95d-4197-87b4-ac55f5bc786a")
+	)
+	(pad "4" smd rect
+		(at -1.1 0.8)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "06a12c3d-c996-43f9-9bd4-940b96f1d89b")
+	)
+)

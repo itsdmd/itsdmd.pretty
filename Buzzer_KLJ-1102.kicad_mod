@@ -1,0 +1,117 @@
+(footprint "Buzzer_KLJ-1102"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6 0)
+		(layer "F.SilkS")
+		(uuid "ffd3a9fa-b009-475d-8c27-eb2d8227bcd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer_KLJ-1102"
+		(at 0 -6.5 0)
+		(layer "F.Fab")
+		(uuid "91347272-7173-4872-9ce5-e81926671c8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40415f22-1873-4681-8119-1ed8e42b1f1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cb8f6a7-0555-4228-ac77-96ebf66a341e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ab21a51-4d9e-464a-ab3a-6f91d756d84d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -4.5)
+		(end 5.5 -4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e60bd67-7dda-46c5-a8e2-dfa95eb0fc40")
+	)
+	(fp_line
+		(start -5.5 4.5)
+		(end -5.5 -4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39aecae5-d5f8-497f-b1cc-bb0185d442fb")
+	)
+	(fp_line
+		(start 5.5 -4.5)
+		(end 5.5 4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8ae0dcd-e34d-4728-aea6-b896666d2a37")
+	)
+	(fp_line
+		(start 5.5 4.5)
+		(end -5.5 4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "751d6163-475a-4423-894d-6d7f2b6ee276")
+	)
+	(pad "1" smd rect
+		(at -6.5 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c491f9f8-f7ca-422a-a221-7299bce1fed0")
+	)
+	(pad "2" smd rect
+		(at 6.5 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61d606f4-556c-43d9-a29c-06c306df0c2e")
+	)
+)

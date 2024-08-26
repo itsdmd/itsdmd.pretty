@@ -1,0 +1,161 @@
+(footprint "FMask_MX-2u-with-cutout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 10.05 0)
+		(layer "Eco2.User")
+		(hide yes)
+		(uuid "845a2b39-3ff9-41a2-822b-069a0080916c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FMask_MX-2u-with-cutout"
+		(at 0 -15.24 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae7fc446-451b-4b60-8c96-7a5871eb39dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10efe55f-975c-494d-86b0-25ba13aaaeec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75e0c9b4-fdac-4b61-8737-00328fb44e42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61ee4e6d-55aa-4012-b225-c68e46c5c250")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -19.025 -9.5)
+		(end 19.025 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "409d1dc4-230d-4de4-97dc-02ee5a1de213")
+	)
+	(fp_line
+		(start -19.025 9.5)
+		(end -19.025 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2abe32a2-8544-450f-87b2-8795c1b56d4c")
+	)
+	(fp_line
+		(start 19.025 -9.5)
+		(end 19.025 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6abd17b2-173c-44b0-91ee-7b7cfa2ec72c")
+	)
+	(fp_line
+		(start 19.025 9.5)
+		(end -19.025 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6c3c417a-61ea-46cb-8b4b-79c8d1cfc21c")
+	)
+	(fp_line
+		(start -16.525 -7)
+		(end -16.525 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f4a849b3-16ac-4352-8d3a-50510fcb67f9")
+	)
+	(fp_line
+		(start -16.525 7)
+		(end 16.525 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9f92500-d15c-4c8c-90d9-376e71599517")
+	)
+	(fp_line
+		(start 16.525 -7)
+		(end -16.525 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2504b0c6-ec71-453e-b25b-1a3a82944388")
+	)
+	(fp_line
+		(start 16.525 7)
+		(end 16.525 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "72b5a507-82df-4987-ac05-ea04a281f9ad")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 35.05 16)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "6ce81cfa-0ca6-4fe2-9de3-111eba251049")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 35.05 16)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "0acb7d91-52de-4254-8314-5d8c13eaf7b1")
+	)
+)

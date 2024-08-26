@@ -1,0 +1,141 @@
+(footprint "FMask_MX-Alps-2u"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 10.05 0)
+		(layer "Eco2.User")
+		(hide yes)
+		(uuid "ecc4705b-e432-4d3d-8b9e-3fd0d1f70c34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MX-Alps_Switch_Cutout"
+		(at 0 -15.24 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "393ba9cf-8f17-4c42-83b5-a2863a2ff7b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3684bdc-0282-443a-a091-5a44c231216d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "343daaec-63b8-491c-8907-a431883d1d0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f903e40-2fdb-48ab-a09b-1b2a72567af9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -19.025 -9.5)
+		(end -0.025 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "53777b85-780b-4fb8-bc1f-95223ec65cdb")
+	)
+	(fp_line
+		(start -19.025 9.5)
+		(end -19.025 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "df623b73-8e99-45cb-835d-f57d59260a86")
+	)
+	(fp_line
+		(start -0.025 9.5)
+		(end -19.025 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5c81df67-859d-4529-871e-7807cb5ec66c")
+	)
+	(fp_line
+		(start 0.025 -9.5)
+		(end 19.025 -9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "48bc5ffb-436c-4d7d-93ee-e858518c8799")
+	)
+	(fp_line
+		(start 19.025 -9.5)
+		(end 19.025 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f5130374-3a47-4cbc-bfff-d75a2a51ab6e")
+	)
+	(fp_line
+		(start 19.025 9.5)
+		(end 0.025 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "756df713-a85d-4ce6-a6e6-9063dc3d885c")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 36.45 15.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "46202a41-e04c-4e0a-b936-10367b323428")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 36.45 15.8)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.063)
+		(uuid "0b68d22f-d198-4050-ac93-90a54588b366")
+	)
+)
