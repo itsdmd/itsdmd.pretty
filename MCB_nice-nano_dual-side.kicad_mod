@@ -1,4 +1,4 @@
-(footprint "MCB_nice-nano"
+(footprint "MCB_nice-nano_dual-side"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MCB_nice-nano"
+	(property "Value" "MCB_nice-nano_dual-side"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -126,6 +126,58 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "0280ac38-c4e5-49dd-a7e2-b9acab509b73")
+	)
+	(fp_text user "nice!nano"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0ffcabf5-212e-481a-8e68-8efa89f22930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "USB"
+		(at 0 -16.2 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3459e3a7-f500-460e-bdf0-28cf4ebea1dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "down"
+		(at 0 -14.8 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "41d729af-7da1-4284-88d5-f07ba3a263ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "1"
+		(at -5.715 -13.2825 0)
+		(layer "B.SilkS")
+		(uuid "bc9eb2c1-c9fd-4a72-a0fb-d5994c249161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
 	)
 	(fp_text user "1"
 		(at -5.715 -13.2825 0)
