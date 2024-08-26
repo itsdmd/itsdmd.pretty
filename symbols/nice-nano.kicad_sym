@@ -7,7 +7,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 22.86 0)
+			(at 0 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "nice_nano"
-			(at 0 20.32 0)
+			(at 0 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "L-itsdmd:MCB_nice-nano"
-			(at 0 -30.48 0)
+			(at 0.254 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
-			(at 1.27 -33.02 0)
+			(at 1.524 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,100 +484,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -5.08 -19.05 90)
-				(length 2.54)
-				(name "P1.01-LF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -2.54 -19.05 90)
-				(length 2.54)
-				(name "P1.02-LF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -19.05 90)
-				(length 2.54)
-				(name "P1.07-LF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 16.51 0)
-				(length 2.54)
-				(name "BAT-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 19.05 16.51 180)
-				(length 2.54)
-				(name "BAT+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "nice_nano_1_1"
 			(rectangle
-				(start -16.51 19.05)
+				(start -16.51 16.51)
 				(end 16.51 -16.51)
 				(stroke
 					(width 0)
