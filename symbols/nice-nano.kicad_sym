@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBup"
+		(property "Footprint" "L-itsdmd:MCB_nice-nano"
 			(at 0 -30.48 0)
 			(effects
 				(font
