@@ -1,4 +1,4 @@
-(footprint "Breakaway_Hole-big"
+(footprint "BA_Hole-big"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Breakaway_Hole-big"
+	(property "Value" "BA_Hole-big"
 		(at 0 -4.75 0)
 		(layer "F.Fab")
 		(hide yes)

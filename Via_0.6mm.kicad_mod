@@ -1,13 +1,13 @@
-(footprint "Breakaway_Hole"
+(footprint "Via_0.6mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.048 0)
-		(layer "Dwgs.User")
+		(at 0 1.4 0)
+		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b87ae518-1074-4207-933f-e151e8c7d856")
+		(uuid "b43606a3-961e-41d7-8bf8-adfac31323df")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Breakaway_Hole"
-		(at 0 -4.75 0)
+	(property "Value" "Via_0.6mm"
+		(at 0 -1.4 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0d5a9ea6-924f-4df0-84c0-eaaba4fb79a5")
+		(uuid "6f1ecd05-9eff-47ea-85f3-4e15df872272")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0aa03ab4-1e76-4d14-8eb1-df44deb2943b")
+		(uuid "ca1dea6b-006e-495b-a96d-26d590cc35cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d55c9d8b-efba-4319-b6c9-542eb2367310")
+		(uuid "fa989d8f-548e-4a55-bd55-b9145ab47658")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3f1abe1-f4e6-4cf7-95d5-2da5ff55789f")
+		(uuid "f07d7b5a-4ce8-4171-a07d-4f3e64567a35")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,21 +64,13 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -0.595312 0)
-		(end 0.595312 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "2b2da62b-bd57-44f1-a78f-ae4ba49bdcad")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 -0.254)
-		(size 0.3937 0.3937)
-		(drill 0.3937)
-		(layers "*.Cu" "*.Mask")
-		(uuid "8e16a1a4-ae57-4ec0-94c6-d36c96f3bb45")
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "51d999e1-6b2a-4386-9d66-66d9a80531a9")
 	)
 )

@@ -1,4 +1,4 @@
-(footprint "KG1"
+(footprint "SW-S_KG1"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "KG1"
+	(property "Value" "SW-S_KG1"
 		(at 0 0.1 0)
 		(layer "F.SilkS")
 		(hide yes)

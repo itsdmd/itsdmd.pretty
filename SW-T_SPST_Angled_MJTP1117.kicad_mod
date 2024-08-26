@@ -1,0 +1,347 @@
+(footprint "SW-T_SPST_Angled_MJTP1117"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "tactile switch SPST right angle, PTS645VL39-2 LFS")
+	(tags "tactile switch SPST angled PTS645VL39-2 LFS C&K Button")
+	(property "Reference" "REF**"
+		(at 2.5 1.68 0)
+		(layer "F.SilkS")
+		(uuid "f0b24d01-ef12-42b4-bc88-3ca1fba6148f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PUSH"
+		(at 2.5 5.38988 0)
+		(layer "F.Fab")
+		(uuid "cb052864-26cb-45af-9867-01dbb5522b3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb8904fc-6492-472f-ae5b-ba306e3b86fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edd1a69e-b621-40bb-9556-e96d0c8cb9a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ee9dfd-66e8-4da4-a375-b4d3140071d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.36 -2.7)
+		(end -1.36 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fff7cd78-a90e-43a1-a9de-2a10cca9b470")
+	)
+	(fp_line
+		(start -1.36 -2.7)
+		(end 6.36 -2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf38952c-96d3-4db5-a28e-77164f2654b5")
+	)
+	(fp_line
+		(start -0.84 0.97)
+		(end -0.84 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2aaa0816-8ed8-4d50-9900-cd74406501f9")
+	)
+	(fp_line
+		(start -0.84 0.97)
+		(end -0.3 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4231c70b-19a3-4478-a9ac-2b6b7a0e12b5")
+	)
+	(fp_line
+		(start 0.8 0.97)
+		(end 4.2 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9daf0f52-ea3d-41ca-bb59-d43744b7d9a9")
+	)
+	(fp_line
+		(start 5.3 0.97)
+		(end 5.84 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afb2d8e2-c5fe-44b9-8aa3-1fc5f790f8ce")
+	)
+	(fp_line
+		(start 5.84 0.97)
+		(end 5.84 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd7c12eb-e649-4149-b9b0-3003d80d221c")
+	)
+	(fp_line
+		(start 6.36 -2.7)
+		(end 6.36 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "370d6a49-5ed5-441b-bfad-4c6bea7f3841")
+	)
+	(fp_line
+		(start -2.25 -2.8)
+		(end 7.3 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6056f72-39e6-4d70-812b-23ff78118cfc")
+	)
+	(fp_line
+		(start -2.25 4.45)
+		(end -2.25 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a053e84a-85ed-4b75-94d8-c9dd13fd5c5c")
+	)
+	(fp_line
+		(start 7.3 -2.8)
+		(end 7.3 4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9b85512-3e26-4e18-8e42-9382416bb7be")
+	)
+	(fp_line
+		(start 7.3 4.45)
+		(end -2.25 4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "567e8c29-1a30-413b-80a7-66c5f28bd9cf")
+	)
+	(fp_line
+		(start -1.25 -2.59)
+		(end 6.25 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab1adff-e63a-4ab7-bab6-5c1afc1d1fee")
+	)
+	(fp_line
+		(start -1.25 3.6)
+		(end -1.25 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "276cf50f-54c7-4e3a-8227-0d08f4154b45")
+	)
+	(fp_line
+		(start -1.25 3.6)
+		(end -0.95 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b7dfd95-986f-427a-8156-e21dc16fed4f")
+	)
+	(fp_line
+		(start -0.95 0.86)
+		(end 5.95 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6546db7b-ced2-4814-9cf3-7cd74c949875")
+	)
+	(fp_line
+		(start -0.95 3.6)
+		(end -0.95 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10f84b04-ab58-4192-b451-cce105bfb744")
+	)
+	(fp_line
+		(start 1.05 -3.85)
+		(end 1.05 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "930cd766-7d17-496b-8d3d-1e955ceacb84")
+	)
+	(fp_line
+		(start 1.05 -3.85)
+		(end 3.95 -3.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40ba1c89-733b-498e-be0e-099c98410834")
+	)
+	(fp_line
+		(start 3.95 -3.85)
+		(end 3.95 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edd9d7b6-6cf2-494e-abb8-3e9951069e39")
+	)
+	(fp_line
+		(start 5.95 3.6)
+		(end 5.95 0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1153cf08-35cc-42e4-9a80-01c9aa1da1c1")
+	)
+	(fp_line
+		(start 5.95 3.6)
+		(end 6.25 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "077eecc2-b207-4966-bced-5c2bd17247ed")
+	)
+	(fp_line
+		(start 6.25 3.6)
+		(end 6.25 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3202297-7d24-4397-9c81-365e6dd38876")
+	)
+	(pad "" thru_hole circle
+		(at -1 2.49)
+		(size 2.1 2.1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f55c63f5-87ee-48a4-88f1-7cbf8d626090")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 -1.21)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8e494278-7f0d-4e52-8d6d-bfe8ceca37f9")
+	)
+	(pad "" thru_hole circle
+		(at 6.01 2.49)
+		(size 2.1 2.1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f78e0e6-7fbb-4d5b-b7b6-93c2ad523b84")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e22c5641-8e45-4352-8c7c-c0a0be9e1c84")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.75 1.75)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "920abfd9-92bf-4fad-9034-a43c8c6e1f7b")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Buttons_Switches_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

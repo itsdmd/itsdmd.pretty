@@ -1,4 +1,4 @@
-(footprint "USB-C_31-M-12-Assembly"
+(footprint "USB-C_31-M-12"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "USB-C_31-M-12-Assembly"
+	(property "Value" "USB-C_31-M-12"
 		(at 0 1.15 0)
 		(layer "Dwgs.User")
 		(uuid "61c23434-8353-4dff-a1d7-7270b865be69")

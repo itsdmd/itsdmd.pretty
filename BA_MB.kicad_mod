@@ -1,4 +1,4 @@
-(footprint "Breakaway_Mousebites"
+(footprint "BA_MB"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Breakaway_Mousebites"
+	(property "Value" "BA_MB"
 		(at 0 -4.75 0)
 		(layer "F.Fab")
 		(hide yes)

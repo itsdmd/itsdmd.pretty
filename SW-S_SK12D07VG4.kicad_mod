@@ -1,4 +1,4 @@
-(footprint "SK12D07VG4"
+(footprint "SW-S_SK12D07VG4"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SK12D07VG4"
+	(property "Value" "SW-S_SK12D07VG4"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "b9f935c6-ca1d-4a0d-8e49-404ccc3fb5da")
