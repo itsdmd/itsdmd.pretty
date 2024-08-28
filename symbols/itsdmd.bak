@@ -226,7 +226,7 @@
 			)
 		)
 		(property "ENOM" "1.27"
-			(at 0 0 0)
+			(at -0.254 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,7 +286,7 @@
 			)
 		)
 		(property "Package" "SOIC-28 Microchip"
-			(at 0 0 0)
+			(at -0.254 -34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +426,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip"
-			(at -0.508 -33.782 0)
+			(at -41.656 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -496,7 +496,7 @@
 			)
 		)
 		(property "MP" "MCP23017-E/SO"
-			(at 0 0 0)
+			(at 38.1 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
