@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 25.4 0)
+			(at -12.446 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,16 +19,16 @@
 			)
 		)
 		(property "Value" "MCP23017-E_SO"
-			(at -12.7 -27.94 0)
+			(at 0.254 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "itsdmd:MCP23017-E_SO"
-			(at 0 0 0)
+			(at 0.254 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			)
 		)
 		(property "Description_1" "\nI/O Port Expander, 16-Bit, I2C I'face, SOIC-28 | Microchip Technology Inc. MCP23017-E/SO\n"
-			(at 0 0 0)
+			(at 0.254 -35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,16 +236,6 @@
 			)
 		)
 		(property "D_NOM" "17.9"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=48467&manufacturer=Microchip&part_name=MCP23017-E/SO&search_term=mcp23017"
 			(at 0 0 0)
 			(effects
 				(font
@@ -335,16 +325,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCP23017-E/SO/Microchip/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "A_MIN" "2.65"
 			(at 0 0 0)
 			(effects
@@ -386,7 +366,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP23017-E/SO/Microchip/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 -38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +426,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip"
-			(at 0 0 0)
+			(at -0.508 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,16 +516,6 @@
 			)
 		)
 		(property "L_MIN" "0.4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1063,7 +1033,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "SW_Slide_SK12D07"
+		(property "Value" "SK12D07"
 			(at -0.254 -6.35 0)
 			(effects
 				(font
@@ -1072,8 +1042,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Switch:SK12D07VG4"
-			(at 0 -8.382 0)
+		(property "Footprint" "itsdmd:SW-S_SK12D07VG4"
+			(at 0 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1071,7 @@
 			)
 		)
 		(property "MF" "C&K"
-			(at 0 0 0)
+			(at -42.672 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,28 +1090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK12D07VG4/C%2526K/view-part/?ref=snap"
-			(at 0.254 -12.446 0)
+			(at 0 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,27 +1101,7 @@
 			)
 		)
 		(property "MP" "SK12D07VG4"
-			(at -0.254 -6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SK12D07VG4/C%2526K/view-part/?ref=eda"
-			(at -0.254 -10.414 0)
+			(at 39.624 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,21 +1111,9 @@
 			)
 		)
 		(symbol "SK12D07VG4_0_0"
-			(polyline
-				(pts
-					(xy 1.27 3.81) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 3.81 -3.81)
-				(end -3.81 6.35)
+				(start -3.81 6.35)
+				(end 3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1259,13 +1177,27 @@
 				)
 			)
 		)
+		(symbol "SK12D07VG4_1_0"
+			(polyline
+				(pts
+					(xy 1.27 3.81) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 	)
 	(symbol "TL3330AF130QG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 21.59 7.62 0)
+			(at -7.62 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,15 +1206,15 @@
 			)
 		)
 		(property "Value" "TL3330AF130QG"
-			(at 21.59 5.08 0)
+			(at 0.254 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
-		(property "Footprint" "TL3330AF130QG"
+		(property "Footprint" "itsdmd:SW-S_TL3330AF130QG"
 			(at 21.59 -94.92 0)
 			(effects
 				(font
@@ -1303,7 +1235,7 @@
 			)
 		)
 		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount, Right Angle"
-			(at 0 0 0)
+			(at 3.048 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,8 +1315,8 @@
 		)
 		(symbol "TL3330AF130QG_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 20.32 -5.08)
+				(start -7.62 3.81)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1394,7 +1326,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 0 180)
+				(at 12.7 1.27 180)
 				(length 5.08)
 				(name "COM"
 					(effects
@@ -1412,7 +1344,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -2.54 180)
+				(at 12.7 -1.27 180)
 				(length 5.08)
 				(name "N.O."
 					(effects
@@ -1430,7 +1362,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at -12.7 1.27 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -1448,7 +1380,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at -12.7 -1.27 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -1467,12 +1399,257 @@
 			)
 		)
 	)
+	(symbol "TL3340AF160QG"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL3340AF160QG"
+			(at -2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "itsdmd:SW-S_TL3340AF160QG"
+			(at 0 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm"
+			(at 0.254 -18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3330AF130QG/E-Switch/view-part/?ref=snap"
+			(at 1.27 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Side Actuated Surface Mount, Right Angle\n"
+			(at 0.254 -12.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at -27.94 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "TL3340AF160QG_0_0"
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -7.62 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -7.62 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 2.921 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 0)
+				(radius 0.3302)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TL3340AF160QG_1_0"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.794 2.1336)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
 	(symbol "nice_nano"
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 20.828 0)
+			(at -16.002 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,15 +1657,15 @@
 			)
 		)
 		(property "Value" "nice_nano"
-			(at 0 18.288 0)
+			(at -0.508 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "L-itsdmd:MCB_nice-nano"
-			(at 0.254 -20.574 0)
+		(property "Footprint" "itsdmd:MCB_nice-nano"
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1674,7 @@
 			)
 		)
 		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
-			(at 1.524 -23.114 0)
+			(at 0.762 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1683,7 @@
 			)
 		)
 		(property "Description" "Symbol for an nicekeyboards nice!nano"
-			(at 0 0 0)
+			(at -0.254 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
