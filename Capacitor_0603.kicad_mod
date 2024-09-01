@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "SMT, 1608, 0603")
 	(tags "SMT, 1608, 0603")
-	(property "Reference" "C_0603"
-		(at -2.05 0 90)
+	(property "Reference" "0603"
+		(at 0 1.5 180)
 		(layer "F.SilkS")
 		(uuid "63ed71ac-cb9d-47d9-bd8c-66f975ab6ade")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "R***"
-		(at 0 -1.25 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "6a62b6bf-9343-41a3-b910-cc1bb59a6407")
 		(effects

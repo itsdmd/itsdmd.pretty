@@ -1,4 +1,4 @@
-(footprint "D_SOD123F_THT"
+(footprint "D_SOD-123F_hybrid"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD123F_THT"
+	(property "Value" "D_SOD-123F_hybrid"
 		(at 0 2 0)
 		(layer "F.Fab")
 		(uuid "48027a93-46a4-4572-bc5a-57c143257997")

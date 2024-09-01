@@ -1,32 +1,204 @@
-(module "SW_SPST_3x3" (layer F.Cu) (tedit 5D5438E0)
-  (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
-  (tags "SPST Tactile Switch")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2.25) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (fp_text value "SW_SPST_3x3" (at 0 2.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.2 -1.6) (end -2.2 1.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.2 -1.6) (end 2.2 1.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.2 1.6) (end 2.2 1.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.5 1.5) (end 1.5 -1.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.5 1.5) (end -1.5 -1.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.5 -1.5) (end 1.5 -1.5) (layer F.SilkS) (width 0.12))
-  (fp_circle (center 0 0) (end 0.9 0) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.2 -1.6) (end 2.2 -1.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.5 1.5) (end 1.5 1.5) (layer F.SilkS) (width 0.12))
-  (fp_text user "%R" (at 0 -2.25) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "1" smd rect (at -1.8 -1.1) (size 0.7 0.5) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "1" smd rect (at 1.8 -1.1) (size 0.7 0.5) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "2" smd rect (at -1.8 1.1) (size 0.7 0.5) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "2" smd rect (at 1.8 1.1) (size 0.7 0.5) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
-    (at (xyz 0 0 0))
-    (scale (xyz 0.48 0.48 0.2))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SW_SPST_3x3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
+	(tags "SPST Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "6d1363ec-3003-4ec9-9ab2-2d1b52f8d6bd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "SW_SPST_3x3"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "c4471a81-0f80-45b9-9a66-4dab32a11917")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2815c51-ff95-48b2-bef9-916d5883781e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4978f1ae-fe81-48c3-ba73-08f55fc9c568")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53fea3c1-a54a-46d0-8897-448be0ca2d9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 0.6)
+		(end -1.5 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6ed980d-853e-40cb-a31e-29cb82053c87")
+	)
+	(fp_line
+		(start -1.2 -1.5)
+		(end 1.2 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23c8c6f5-eaed-4b75-8bf7-7af47f8d10dc")
+	)
+	(fp_line
+		(start -1.2 1.5)
+		(end 1.2 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6684862b-bf30-4954-bc39-e80f611aae03")
+	)
+	(fp_line
+		(start 1.5 0.6)
+		(end 1.5 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4fcbc31-d94a-4cbf-84b2-a3beee0ddc7b")
+	)
+	(fp_line
+		(start -2.2 -1.6)
+		(end -2.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22e26985-5518-4135-a3da-e4034892541e")
+	)
+	(fp_line
+		(start -2.2 -1.6)
+		(end 2.2 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af0b019b-8346-4c68-b6d1-7bf11559ea2e")
+	)
+	(fp_line
+		(start -2.2 1.6)
+		(end 2.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fadcc180-1cb9-427c-ae8c-3c0e3631b7e5")
+	)
+	(fp_line
+		(start 2.2 -1.6)
+		(end 2.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec8cb239-4c33-4797-ae64-d3b727576a94")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "aaf5146b-2e1f-4291-afa8-d10ba4c67bf6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "dc2f4dba-a029-41fb-a123-09208c81f203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 -1.1)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8053458d-3915-4a35-9b57-721f81a8cb00")
+	)
+	(pad "1" smd rect
+		(at 1.8 -1.1)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d6feb96-31d2-44f6-bd58-3d77b16624b1")
+	)
+	(pad "2" smd rect
+		(at -1.8 1.1)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6388096e-a8e5-4ac5-a203-f08019bba38e")
+	)
+	(pad "2" smd rect
+		(at 1.8 1.1)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c740a956-d634-4f86-b483-35a0615a94f0")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.48 0.48 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

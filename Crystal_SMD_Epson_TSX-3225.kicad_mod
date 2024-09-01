@@ -4,13 +4,13 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 2.5 0)
+		(at 0 2.35 0)
 		(layer "F.SilkS")
 		(uuid "8e177142-4a85-4ef2-aa67-a0de59924032")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -63,20 +63,20 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -0.25 -1.25)
-		(end 0.25 -1.25)
+		(start -0.15 -1.25)
+		(end 0.15 -1.25)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "2ec15567-5bea-44a8-9a5a-b0fa424ddc3a")
 	)
 	(fp_line
-		(start -0.25 1.25)
-		(end 0.25 1.25)
+		(start -0.15 1.25)
+		(end 0.15 1.25)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")

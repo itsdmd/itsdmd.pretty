@@ -4,13 +4,13 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "DB**"
-		(at -0.218388 -3.412419 0)
+		(at 0 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "c97ccf24-896a-4638-93d8-a2c27dbb3b22")
 		(effects
 			(font
-				(size 0.641131 0.641131)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -66,7 +66,7 @@
 		(start -2.1 -2.48)
 		(end 2.1 -2.48)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +76,7 @@
 		(start -2.1 -2)
 		(end -2.1 -2.48)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -86,7 +86,7 @@
 		(start -2.1 2)
 		(end -2.1 2.48)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -96,7 +96,7 @@
 		(start -2.1 2.48)
 		(end 2.1 2.48)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -106,7 +106,7 @@
 		(start 2.1 -2.48)
 		(end 2.1 -2)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -116,7 +116,7 @@
 		(start 2.1 2.48)
 		(end 2.1 2)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")

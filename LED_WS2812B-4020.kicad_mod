@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "LED"
+	(property "Reference" "REF**"
 		(at 0 -1.75 0)
 		(layer "F.SilkS")
 		(uuid "897766ed-0772-4a2a-a9ff-b6b0be1c0562")

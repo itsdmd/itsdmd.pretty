@@ -6,14 +6,15 @@
 	(descr "MX-style keyswitch with reversible Kailh socket mount")
 	(tags "MX,cherry,gateron,kailh,pg1511,socket")
 	(property "Reference" "REF**"
-		(at 0 -8.255 0)
-		(layer "F.SilkS")
+		(at -0.01 -8.2 0)
+		(layer "B.SilkS")
 		(uuid "1e49f53e-7877-4f90-832f-6836d01199d8")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "KS_Socket_MX_reversible"
@@ -65,36 +66,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7 -7)
-		(end -6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "fcca70d3-0ded-4566-aa08-150c58038260")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a56635a9-4cc0-4e7f-a28f-c861bb8852f1")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "60b04876-c84c-4ff0-affe-9cbb6a902b19")
-	)
-	(fp_line
 		(start -6.35 -4.445)
 		(end -6.35 -4.064)
 		(stroke
@@ -103,36 +74,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "d7a2bd0a-7c93-4eb8-8514-a80c01e82dce")
-	)
-	(fp_line
-		(start -6.35 -1.016)
-		(end -6.35 -0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "73eb42d0-cb09-4b2d-b270-09b4a1ed31a4")
-	)
-	(fp_line
-		(start -6.35 -0.635)
-		(end -5.969 -0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6685c247-fdac-483c-b211-5c4ca7777899")
-	)
-	(fp_line
-		(start -6 7)
-		(end -7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a3bb2a3b-d5f2-4573-a15a-0c07684f4b28")
 	)
 	(fp_line
 		(start -4.191 -0.635)
@@ -184,46 +125,6 @@
 		(layer "B.SilkS")
 		(uuid "b9406567-0925-4d80-a3eb-518f14706aba")
 	)
-	(fp_line
-		(start 6 -7)
-		(end 7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "00b5d242-b1ff-4eeb-b28c-655340aee4a2")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6.604)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "2568e5cc-d574-40e1-b0a4-c3e9486216a9")
-	)
-	(fp_line
-		(start 7 6)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "9717da80-4ceb-470d-b148-5a3773725d4c")
-	)
-	(fp_line
-		(start 7 7)
-		(end 6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "06ec7216-a00a-46bd-b1c6-c5c3b5e62544")
-	)
 	(fp_arc
 		(start -6.35 -4.445)
 		(mid -5.606051 -6.241051)
@@ -247,56 +148,6 @@
 		(uuid "c8777413-8dfd-4d1b-81ec-af256fdd67b5")
 	)
 	(fp_line
-		(start -7 -7)
-		(end -6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b385e92b-b1e3-4412-9c6e-cf814bede7e9")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "47c844ab-5e3f-4523-8eec-d55c3cae7187")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2abad7bf-1549-440a-9004-acb4406cab8b")
-	)
-	(fp_line
-		(start -6.35 0.635)
-		(end -5.969 0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "53bffec4-6e15-4e64-a69a-6001a60f825d")
-	)
-	(fp_line
-		(start -6.35 1.016)
-		(end -6.35 0.635)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7b5b2673-6c17-44cd-affd-f318c806fc53")
-	)
-	(fp_line
 		(start -6.35 4.445)
 		(end -6.35 4.064)
 		(stroke
@@ -305,16 +156,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a3afbdd7-4e3c-408f-8ff6-b6373ffef65e")
-	)
-	(fp_line
-		(start -6 7)
-		(end -7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f427d026-dc4a-496f-b21e-b76b5e0c12bc")
 	)
 	(fp_line
 		(start -4.191 0.635)
@@ -327,8 +168,8 @@
 		(uuid "faafbd4b-9d29-4065-8fc8-310b453ef7f4")
 	)
 	(fp_line
-		(start 0 2.54)
-		(end 5.08 2.54)
+		(start 0 2.62)
+		(end 5.08 2.62)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -337,8 +178,8 @@
 		(uuid "298c1b52-3c09-4d1f-a24f-3c646a01a404")
 	)
 	(fp_line
-		(start 5.08 2.54)
-		(end 5.08 3.556)
+		(start 5.08 2.62)
+		(end 5.08 3.636)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -365,46 +206,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0a317d29-23c7-4844-9a99-fc11baaa5edd")
-	)
-	(fp_line
-		(start 6 -7)
-		(end 7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "36bc2a94-c8f7-43fc-829d-594227d911ce")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c2d4ea0b-902a-4f0c-89a7-0f91d436c428")
-	)
-	(fp_line
-		(start 7 6.604)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8bf51757-0ee2-4f5d-9e26-2b03d7c0f070")
-	)
-	(fp_line
-		(start 7 7)
-		(end 6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0c2d0f49-43d1-4ff6-82fe-048866298a6a")
 	)
 	(fp_arc
 		(start -3.81 6.985)
@@ -813,15 +614,14 @@
 		(uuid "f3f67a02-8b2d-4291-bcad-9aa0da9d4e4a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -8.255 0)
-		(layer "B.SilkS")
-		(uuid "8b6e77f9-62d7-4ce9-8699-bfcf261a44c4")
+		(at 0 8.25 0)
+		(layer "F.SilkS")
+		(uuid "a178c4c1-fd50-4ed4-b917-dc9dcb1a38d7")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(fp_text user "${VALUE}"

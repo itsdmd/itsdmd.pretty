@@ -6,7 +6,7 @@
 	(descr "MX-style keyswitch, reversible, without pcb-mount holes")
 	(tags "MX,cherry,gateron,kailh")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at -0.03 -7.93 0)
 		(layer "F.SilkS")
 		(uuid "462e3007-03c2-4269-8984-471ebe54495c")
 		(effects
@@ -64,166 +64,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -7 -7)
-		(end -6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "1789bdfa-0227-4305-9079-c76fa91b6236")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "eefd3b1f-df8b-4e1f-a9dc-b24e5b40c9e5")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "74fee482-340f-4db1-823e-539dd8ceeaa4")
-	)
-	(fp_line
-		(start -6 7)
-		(end -7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a5610df3-493a-453a-98d0-19b31f0bd587")
-	)
-	(fp_line
-		(start 6 -7)
-		(end 7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a2b6212d-32af-4004-aa4c-4ada660a7a7e")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "0f45f34e-ecaa-4ecc-94c0-f3a9e49fe874")
-	)
-	(fp_line
-		(start 7 6)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "e6c39499-e5d0-436c-b21b-d8fcd0c34946")
-	)
-	(fp_line
-		(start 7 7)
-		(end 6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "dfc17f28-8e54-403b-9a32-4108d7b974c1")
-	)
-	(fp_line
-		(start -7 -7)
-		(end -6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e7a2511b-4b81-4b40-8fe6-ecbba857adba")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a0a4cdf5-26b3-4cf2-8844-179d2f6ce164")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c2db54d8-4736-4c03-b8f6-a647e44ad79c")
-	)
-	(fp_line
-		(start -6 7)
-		(end -7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9765e6b0-a7a1-4fbf-9bd3-15eadf35cb40")
-	)
-	(fp_line
-		(start 6 -7)
-		(end 7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "845ad5f3-6586-4404-8ab5-05319825b0b3")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7275bd0a-55ce-4c4e-b7ff-df231ead6d39")
-	)
-	(fp_line
-		(start 7 6)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8e76779d-220e-4a44-a131-4cd3c04b6e9e")
-	)
-	(fp_line
-		(start 7 7)
-		(end 6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "176d5347-38de-4332-b4fd-3e243d6bb94e")
-	)
 	(fp_line
 		(start -6.9 6.9)
 		(end -6.9 -6.9)
@@ -345,9 +185,9 @@
 		(uuid "781e0cd3-e09a-4025-addc-5679e813d62e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3.048 0)
+		(at 0 -7.98 0)
 		(layer "B.SilkS")
-		(uuid "47884a3c-3fbb-47c4-95eb-b00c87fa09ea")
+		(uuid "dd46e80c-abfe-41e9-bcd9-438977002ee6")
 		(effects
 			(font
 				(size 1 1)

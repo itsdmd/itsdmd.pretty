@@ -1,4 +1,4 @@
-(footprint "KS_Choc-2.5u"
+(footprint "KS_Choc-2.5u-LED"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 14.2 0)
 		(layer "Dwgs.User")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "521743aa-467c-4d81-91e5-d592f2cf030a")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "TRRS_PJ-320A"
 		(at 0 -5.6 0)
 		(layer "F.Fab")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "9dfb4df6-8333-447c-9954-37db49d449fc")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "de1f52c4-5fd4-4f7f-be08-a87b1d91f2d2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "811a63f8-44b3-44fb-832c-324d0f4964c5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "0f354439-a7fb-4160-bca6-5cd2c92c9c0a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,78 +64,99 @@
 	(attr through_hole)
 	(fp_line
 		(start -3.05 0)
-		(end -3.05 12.1)
+		(end -3.05 9.45)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "d4c5ef02-35ad-4292-9f85-72e6f327e001")
 	)
 	(fp_line
 		(start -2.8 0)
 		(end -2.8 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "3fdf36e2-0b0c-4c4d-9a61-f52e00715fe7")
 	)
 	(fp_line
 		(start 2.8 -2)
 		(end -2.8 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "f8598cd6-0b62-426b-9f00-b66757ddc15d")
 	)
 	(fp_line
 		(start 2.8 0)
 		(end 2.8 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "2ca424e8-f74d-4cde-a186-3cb3d8081fb3")
 	)
 	(fp_line
 		(start 3.05 0)
 		(end -3.05 0)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "95ec410a-ce61-4abc-a93f-6afdba0892e7")
 	)
 	(fp_line
-		(start 3.05 0)
-		(end 3.05 12.1)
+		(start 3.05 2)
+		(end 3.05 0)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "7422372c-cea2-426e-9233-5e5f779bdc3a")
+	)
+	(fp_line
+		(start 3.05 11.4)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4ed2d0d-2c8c-4cd1-8853-33cb7028ba09")
 	)
 	(fp_line
 		(start 3.05 12.1)
-		(end -3.05 12.1)
+		(end -0.5 12.1)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "d5bb5a70-6c4b-46d2-a5c0-e1bfbd4bf5c4")
+	)
+	(fp_text user "PJ-320A"
+		(at -1.65 4.95 90)
+		(layer "F.SilkS")
+		(uuid "b57c98ac-8ce4-4bc7-b861-0eedfaea0ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "Sleeve"
 		(at 0.25 11.4 0)
 		(layer "F.Fab")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "1c82350b-11b4-4f09-94c0-53ce665388f0")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -146,18 +167,7 @@
 	(fp_text user "Ring2"
 		(at 0 3.25 0)
 		(layer "F.Fab")
-		(uuid "00000000-0000-0000-0000-000000000000")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-		)
-	)
-	(fp_text user "Ring1"
-		(at 0 6.25 0)
-		(layer "F.Fab")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "5e957a87-d858-4456-a87c-bde5b0bac737")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -168,7 +178,18 @@
 	(fp_text user "Tip"
 		(at 0 10 0)
 		(layer "F.Fab")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "8e56dba1-5ce6-4b46-af78-5b02ba90dce1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Ring1"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(uuid "cd739a26-9b89-4ecb-a856-d2808d3314ca")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -181,14 +202,14 @@
 		(size 0.8 0.8)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "b365e173-3979-4605-b2a0-e02329c6f34b")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 8.6)
 		(size 0.8 0.8)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "74e6a213-41cd-4801-a3f3-5241ddab9d2d")
 	)
 	(pad "1" thru_hole oval
 		(at -2.3 11.3)
@@ -196,7 +217,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "cafbd0ea-ce22-45ec-a835-12e19a75280a")
 	)
 	(pad "2" thru_hole oval
 		(at 2.3 10.2)
@@ -204,7 +225,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "c9a1bb44-7a6f-405a-8277-ee8954412970")
 	)
 	(pad "3" thru_hole oval
 		(at 2.3 6.2)
@@ -212,7 +233,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "ba3d8a75-14cd-411d-8860-3a58a59cd6aa")
 	)
 	(pad "4" thru_hole oval
 		(at 2.3 3.2)
@@ -220,7 +241,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "8b3ac61b-5060-413d-89da-86f90db510f3")
 	)
 	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
 		(offset

@@ -11,8 +11,9 @@
 		(uuid "55da4ccc-5765-4a3f-be52-faf33348e480")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
 			)
 		)
 	)
@@ -68,7 +69,7 @@
 		(start -1.016 -0.47)
 		(end -1.016 0.47)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,7 +79,7 @@
 		(start -1.016 0.47)
 		(end 1.016 0.47)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +89,7 @@
 		(start 1.016 -0.47)
 		(end -1.016 -0.47)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -98,7 +99,7 @@
 		(start 1.016 -0.47)
 		(end 1.016 0.47)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")

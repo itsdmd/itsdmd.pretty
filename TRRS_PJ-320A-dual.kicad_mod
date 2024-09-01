@@ -64,9 +64,9 @@
 	(attr through_hole)
 	(fp_line
 		(start -0.75 0)
-		(end -0.75 12.1)
+		(end -0.75 1.6)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -76,7 +76,7 @@
 		(start -0.75 0)
 		(end 5.35 0)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -84,9 +84,9 @@
 	)
 	(fp_line
 		(start -0.75 12.1)
-		(end 5.35 12.1)
+		(end 2.95 12.1)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -96,7 +96,7 @@
 		(start -0.5 -2)
 		(end 5.1 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -106,7 +106,7 @@
 		(start -0.5 0)
 		(end -0.5 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -116,7 +116,7 @@
 		(start 5.1 0)
 		(end 5.1 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -124,9 +124,9 @@
 	)
 	(fp_line
 		(start 5.35 0)
-		(end 5.35 12.1)
+		(end 5.35 8.6)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "B.SilkS")
@@ -134,9 +134,9 @@
 	)
 	(fp_line
 		(start -5.35 0)
-		(end -5.35 12.1)
+		(end -5.35 8.6)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -146,7 +146,7 @@
 		(start -5.1 0)
 		(end -5.1 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -156,7 +156,7 @@
 		(start 0.5 -2)
 		(end -5.1 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -166,7 +166,7 @@
 		(start 0.5 0)
 		(end 0.5 -2)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -176,7 +176,7 @@
 		(start 0.75 0)
 		(end -5.35 0)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -184,9 +184,9 @@
 	)
 	(fp_line
 		(start 0.75 0)
-		(end 0.75 12.1)
+		(end 0.75 1.6)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -194,9 +194,9 @@
 	)
 	(fp_line
 		(start 0.75 12.1)
-		(end -5.35 12.1)
+		(end -3 12.1)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -209,7 +209,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -221,7 +222,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)

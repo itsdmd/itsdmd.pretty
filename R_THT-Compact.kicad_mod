@@ -4,20 +4,19 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "R**"
-		(at 0 0 0)
-		(layer "B.SilkS")
+		(at 0 1.6 180)
+		(layer "F.SilkS")
 		(uuid "944fbca1-9e24-4387-b5e5-25372ce66423")
 		(effects
 			(font
 				(size 0.8 0.8)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Value" "R"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "0fa6ff84-a97a-4661-8dd9-1b6fb92dfb8f")
 		(effects
 			(font

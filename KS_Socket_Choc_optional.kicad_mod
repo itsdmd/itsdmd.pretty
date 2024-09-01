@@ -6,14 +6,15 @@
 	(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 	(tags "kailh,choc")
 	(property "Reference" "REF**"
-		(at 0 -8.255 0)
-		(layer "F.SilkS")
+		(at 0 -9.5 180)
+		(layer "B.SilkS")
 		(uuid "39d26466-119a-4574-bdbb-526b5e0aeb97")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "Kailh_socket_PG1350_optional"
@@ -195,86 +196,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "fb9365d5-487f-4a48-b32c-2fa84b622798")
-	)
-	(fp_line
-		(start -7 -6)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "19122f7c-b179-4268-9126-ebf36fed2c4f")
-	)
-	(fp_line
-		(start -7 7)
-		(end -7 6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a2320fcf-4f2c-4efc-9f03-640e145eb1b9")
-	)
-	(fp_line
-		(start -7 7)
-		(end -6 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "51131260-3237-4306-a8de-c963328e90e8")
-	)
-	(fp_line
-		(start -6 -7)
-		(end -7 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f25fea45-6f4f-4bde-ba57-70da2b123567")
-	)
-	(fp_line
-		(start 6 7)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "98079435-b547-4813-963f-b2f582918a7c")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 6 -7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "616387cc-6bbc-46d3-879f-318e8dbec157")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 -6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1aa998ad-4319-4cba-aa05-8e803a63341e")
-	)
-	(fp_line
-		(start 7 6)
-		(end 7 7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d553434a-81a8-482d-81d9-5419ea5b6bf5")
 	)
 	(fp_line
 		(start -6.9 6.9)
@@ -587,18 +508,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "66ff9f2e-f6e1-4bb2-b550-8f75dbbdcb2c")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 4.445 -7.62 0)
-		(layer "B.SilkS")
-		(uuid "42f28edf-17a0-41ff-8f1d-152756ff7795")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
 	)
 	(fp_text user "${VALUE}"
 		(at 2.54 -0.635 0)

@@ -1,4 +1,4 @@
-(footprint "D_SOD123_dual_side"
+(footprint "D_SOD-123"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -67,46 +67,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -0.45 -0.703393)
-		(end -0.45 0.696607)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "9e4cc116-e520-49a0-830c-72ebe2a61610")
-	)
-	(fp_line
-		(start -0.45 -0.003393)
-		(end 0.45 -0.703393)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "bf55f55d-e77a-42b1-a4d7-676912bb3089")
-	)
-	(fp_line
-		(start 0.45 -0.703393)
-		(end 0.45 0.696607)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "b6c945ba-0401-46e3-8d0b-92a8cdb43e61")
-	)
-	(fp_line
-		(start 0.45 0.696607)
-		(end -0.45 -0.003393)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "3c2434a5-eb4b-4790-a957-23afda6d37bb")
-	)
 	(fp_line
 		(start -0.45 -0.703393)
 		(end -0.45 0.696607)
