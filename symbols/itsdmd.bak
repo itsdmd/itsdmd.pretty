@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +47,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "E2_MAX" "0.0"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "E1_MIN" "7.5"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "B_NOM" "0.41"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "EMAX" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "VACANCIES" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +116,7 @@
 			)
 		)
 		(property "L1_MAX" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 			)
 		)
 		(property "E1_NOM" "7.5"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "L1_NOM" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "DMAX" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "L1_MIN" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +176,7 @@
 			)
 		)
 		(property "B_MAX" "0.51"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +196,7 @@
 			)
 		)
 		(property "EMIN" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,7 +206,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +216,7 @@
 			)
 		)
 		(property "D2_MAX" "0.0"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +226,7 @@
 			)
 		)
 		(property "ENOM" "1.27"
-			(at -0.254 0 0)
+			(at 0.254 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,7 +236,7 @@
 			)
 		)
 		(property "D_NOM" "17.9"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			)
 		)
 		(property "D_MAX" "17.9"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +256,7 @@
 			)
 		)
 		(property "L_MAX" "1.27"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,7 +266,7 @@
 			)
 		)
 		(property "A_MAX" "2.65"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +276,7 @@
 			)
 		)
 		(property "D1_MAX" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +296,7 @@
 			)
 		)
 		(property "D1_NOM" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +306,7 @@
 			)
 		)
 		(property "D1_MIN" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -316,7 +316,7 @@
 			)
 		)
 		(property "A_NOM" "2.65"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "A_MIN" "2.65"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
+			(at 0 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "DNOM" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +376,7 @@
 			)
 		)
 		(property "DMIN" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +386,7 @@
 			)
 		)
 		(property "E_NOM" "10.3"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +396,7 @@
 			)
 		)
 		(property "B_MIN" "0.31"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "PIN_COUNT" "28.0"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +416,7 @@
 			)
 		)
 		(property "L_NOM" "0.835"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +436,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +446,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +456,7 @@
 			)
 		)
 		(property "A1_MIN" "0.1"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "E1_MAX" "7.5"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 			)
 		)
 		(property "E_MIN" "10.3"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 			)
 		)
 		(property "D_MIN" "17.9"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +506,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +516,7 @@
 			)
 		)
 		(property "L_MIN" "0.4"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +526,7 @@
 			)
 		)
 		(property "E_MAX" "10.3"
-			(at 0 0 0)
+			(at 0.508 -42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
