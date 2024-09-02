@@ -1,4 +1,4 @@
-(footprint "SW-S_TL3330AF130QG"
+(footprint "SW-T_TL3330AF130QG"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW-S_TL3330AF130QG"
+	(property "Value" "SW-T_TL3330AF130QG"
 		(at 0 -0.135 0)
 		(layer "F.SilkS")
 		(hide yes)

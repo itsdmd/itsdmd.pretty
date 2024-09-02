@@ -1,4 +1,4 @@
-(footprint "SW-S_7.4x2.6-4pad-smd"
+(footprint "SW-T_7.4x2.6-4pad-smd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW-S_7.4x2.6-4pad-smd"
+	(property "Value" "SW-T_7.4x2.6-4pad-smd"
 		(at 0 0.1 0)
 		(layer "F.SilkS")
 		(hide yes)

@@ -1,4 +1,4 @@
-(footprint "SW-S_TL3340AF160QG"
+(footprint "SW-T_TL3340AF160QG"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SW-S_TL3340AF160QG"
+	(property "Value" "SW-T_TL3340AF160QG"
 		(at 10.541 -4.191 0)
 		(layer "F.Fab")
 		(uuid "5793691a-3acc-42de-90bd-b3b1a1a8cb30")
